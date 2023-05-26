@@ -7,6 +7,6 @@
 
 .left-container a {
     display: flex;
-    gap: 1em;
+    
     color: var(--color-3);
 }
