@@ -1,0 +1,18 @@
+@import '../base/base.css';
+
+@import '../vendor/font-awesome.min.css';
+
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-RI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+body {
+    background-color: var(--main-color);
+}
+
+
