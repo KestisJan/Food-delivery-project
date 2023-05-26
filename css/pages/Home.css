@@ -19,21 +19,26 @@
 }
 /* Adding main color for page */
 body {
-    background-color: var(--main-color);
-}
-/* Main class */
-.container {
-    display: flex;
-    padding-top: 3em;
+    font-size: 16px;
+    background-color: var(--color-3);
 }
 
+
+/* Main class */
+ .container {
+    display: flex;
+    padding-top: 1.5em;
+} 
+
 /* Left container style */
-.left-container {
+ .left-container {
     width: 20em;
     padding: 4em;
     display: flex;
     flex-direction: column;
     gap: 1em;
+    background-color: var(--main-color);
+    margin-top: -1.5em;
 }
 .left-container a {
     display: flex;
@@ -56,29 +61,68 @@ body {
     background-color: var(--color-3);
     border-radius: 35px;
     opacity: 1;
-}
+} 
 
 /* Main content */
-.main-container {
+ .main-container {
     display: flex;
     flex-direction: column;
     background-color: var(--color-3);
-    margin: -3em 0 0 -5em;
-    padding: 20px;
+    padding: 0 25px 0 25px;
+} 
+/* Header styling */
+ .header-1 {
+    display: flex;
+    gap: 1.5em;
+    justify-content: flex-start;
+    align-items: center;
 }
-
 .header-1 h4 {
     display:inline-block;
-    text-align: center;
-    pad
+    
+}
+/* Button */
+#first-meal-btn {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background-color: var(--main-color);
+    padding: 0.3em 0.5em;
+    color: var(--color-3);
+    text-decoration: none;
+    
+} 
+/* Button Icon */
+#first-meal-btn i {
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-3);
+    border-radius: 50%;
+    padding: 3px;
+    color: var(--main-color);
+}
+.btn-hover{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 0.3em;
+    text-decoration: none;
 }
 
-.header-2 {
+.btn-hover:hover{
+    background-color: var(--main-color);
+    color: var(--color-3);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+ .header-2 {
     display: flex;
     justify-content: space-between;
     gap: 50em;
     text-align: center;
-    padding-top: 5.5em;
+    padding-top: 3.5em;
 }
 
 
