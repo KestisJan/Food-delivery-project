@@ -21,11 +21,13 @@
 body {
     background-color: var(--main-color);
 }
+
 /* Main class */
 .container {
     display: flex;
     padding-top: 3em;
 }
+
 
 /* Left container style */
 .left-container {
@@ -35,6 +37,10 @@ body {
     flex-direction: column;
     gap: 1em;
 }
+
+
+
+
 .left-container a {
     display: flex;
     gap: 1em;
@@ -50,12 +56,14 @@ body {
     border-radius: 35px;
     opacity: 0.8;
 }
+
 #menu-btn {
     color: var(--main-color);
     background-color: var(--color-3);
     border-radius: 35px;
     opacity: 1;
 }
+
 
 /* Main content */
 .main-container {
