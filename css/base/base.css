@@ -1,0 +1,27 @@
+:root {
+    --main-color:#44d187;
+    --color-1:#ffd42e;
+    --color-2:#d74369;
+    --color-3:#fafafa;
+    --color-4:#e5bde5;
+    --color-5:#e5d4a7;
+    --color-6:#93e5e5;
+    --color-7:#a8e5e5;
+    --color-8:#cae58f;
+    --color-9:#c5d7e5;
+    --color-10:#e5c1c1;
+    --color-11:#e5e58b;
+    --color-12:#e5bde5;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+

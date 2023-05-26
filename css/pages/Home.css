@@ -1,0 +1,59 @@
+/* BASE */
+@import '../base/base.css';
+
+/* LAYOUT */
+@import '../base/layout.css';
+
+/* BUTTONS */
+@import '../components/buttons.css';
+
+/* VENDOR */
+@import '../vendor/font-awesome.min.css';
+
+/* Adding new font-family */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-RI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+/* Adding main color for page */
+body {
+    background-color: var(--main-color);
+}
+
+/* Left container style */
+.left-container {
+    width: 20em;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.left-container a {
+    display: flex;
+    gap: 1em;
+    color: var(--color-3);
+    padding: 8px 20px;
+    width: 16em;
+    text-decoration: none;
+}
+.left-container a:hover {
+    background-color:  var(--color-3);
+    color: var(--main-color);
+    padding: 8px 20px;
+    border-radius: 35px;
+    opacity: 0.8;
+}
+
+
+#menu-btn {
+    color: var(--main-color);
+    background-color: var(--color-3);
+    border-radius: 35px;
+    opacity: 1;
+}
+
+
+
