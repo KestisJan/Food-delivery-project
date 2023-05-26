@@ -1,5 +1,13 @@
+/* BASE */
 @import '../base/base.css';
 
+/* LAYOUT */
+@import '../base/layout.css';
+
+/* BUTTONS */
+@import '../components/buttons.css';
+
+/* VENDOR */
 @import '../vendor/font-awesome.min.css';
 
 
@@ -14,5 +22,7 @@
 body {
     background-color: var(--main-color);
 }
+
+
 
 
