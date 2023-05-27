@@ -80,6 +80,11 @@
     padding: 10px;
     border-radius: 50%;
 }
+/* Heart-2 hover effect */
+.heart-2:hover {
+    opacity: 80%;
+    background-color: var(--color-3);
+}
 /* Card 2 */
 .card-2 {
     text-align: center;
