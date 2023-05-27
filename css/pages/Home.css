@@ -1,12 +1,11 @@
 /* BASE */
 @import '../base/base.css';
-
 /* LAYOUT */
 @import '../base/layout.css';
-
 /* BUTTONS */
 @import '../components/buttons.css';
-
+/* CARDS */
+@import '../components/cards.css';
 /* VENDOR */
 @import '../vendor/font-awesome.min.css';
 
@@ -32,7 +31,7 @@ body {
 
 /* Left container style */
  .left-container {
-    height: 800px;
+    height: 1000px;
     width: 15em;
     padding: 4em;
     display: flex;
@@ -66,7 +65,8 @@ body {
 
 /* Main content */
  .main-container {
-    height: 800px;
+    height: 1000px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     background-color: var(--color-3);
@@ -78,6 +78,7 @@ body {
     gap: 1.5em;
     justify-content: flex-start;
     align-items: center;
+    font-size: 14px;
 }
 .header-1 h4 {
     display:inline-block;
@@ -125,80 +126,12 @@ body {
  .header-2 {
     display: flex;
     justify-content: space-between;
-    gap: 50em;
+    font-size: 16px;
+    gap: 30em;
     text-align: center;
-    padding-top: 3.5em;
-}
-/* CARDS */
+    padding-top: 1.4em;
 
-.card-1 {
-    text-align: center;
-    background-color: #F7EBF7;
-    height: 17em;
-    width: 15em;
-    font-weight: bold;
-    font-size: 14px;
-    border-radius: 0.8em;
 }
-.top-card {
-    display: flex;
-    justify-content: space-between;
-    
-}
-/* Card rating styling */
-.rating {
-    margin: 16px;
-    width: 4em;
-    height: 1.5em;
-    display: flex;
-    background-color: black;
-    color: white;
-    border-radius: 25px;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 12px;
-}
-/* Card rating star color */
-.fa-star {
-    color: var(--color-1);
-}
-/* Card heart styling */
-.heart {
-    background-color: var(--color-3);
-    margin: 10px 16px;
-    padding: 10px;
-    border-radius: 50%;
-    color: var(--color-2);
-}
-/* Resizing card image */
-.card-1 img {
-    width: 50%;
-}
-
-/* Botom card info */
-.bottom-card {
-    display: flex;
-    justify-content: start;
-    gap: 1.5em;
-    padding: 1em 0 0 1em;
-    align-items: center;
-    font-size: 12px;
-}
-.dish-weigth {
-    background-color: var(--color-3);
-    color: var(--color-12);
-    padding: 0.4em 0.4em;
-    border-radius: 25px;
-    
-}
-
-/* Card price */
-.dish-price {
-    padding: 0.1em 0 0 1em;
-    float: left;
-    font-size: 12px;
-}
-
 /* Rigth container */
 .right-container {
     background-color: var(--color-9);

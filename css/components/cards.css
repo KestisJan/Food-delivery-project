@@ -1,0 +1,250 @@
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 2em;
+}
+/* Card 1 */
+.card-1 {
+    text-align: center;
+    background-color: var(--color-4);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Card top info */
+.top-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Card rating styling */
+.rating {
+    margin: 16px;
+    width: 4em;
+    height: 1.7em;
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+/* Card rating star color */
+.fa-star {
+    color: var(--color-1);
+}
+/* Card heart styling */
+.heart-1 {
+    background-color: var(--color-3);
+    margin: 10px 16px;
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--color-2);
+}
+/* Resizing card image */
+.card-1 img {
+    width: 50%;
+}
+/* Botom card info */
+.bottom-card {
+    display: flex;
+    justify-content: start;
+    gap: 1.5em;
+    padding: 1em 0 0 1em;
+    align-items: center;
+    font-size: 12px;
+}
+/* Weigth styling */
+.weight-color-1 {
+    background-color: var(--color-3);
+    color: var(--color-12);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
+/* Card price */
+.dish-price {
+    padding: 0.1em 0 0 1em;
+    float: left;
+    font-size: 12px;
+}
+/* Heart style for the rest of the cards */
+.heart-2 {
+    background-color: var(--color-3);
+    margin: 10px 16px;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* Card 2 */
+.card-2 {
+    text-align: center;
+    background-color: var(--color-5);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Resizing card image */
+.card-2 img {
+    width: 50%;
+}
+/* Weigth styling */
+.weight-color-2 {
+    background-color: var(--color-3);
+    color: var(--color-5);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
+/* Card 3 */
+.card-3 {
+    text-align: center;
+    background-color: var(--color-6);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Resizing card image */
+.card-3 img {
+    width: 50%;
+}
+/* Weigth styling */
+.weight-color-3 {
+    background-color: var(--color-3);
+    color: var(--color-6);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
+/* Card 4 */
+.card-4 {
+    text-align: center;
+    background-color: var(--color-7);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Resizing card image */
+.card-4 img {
+    width: 50%;
+}
+/* Weigth styling */
+.weight-color-4 {
+    background-color: var(--color-3);
+    color: var(--color-7);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
+/* Card 5 */
+.card-5 {
+    text-align: center;
+    background-color: var(--color-8);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Resizing card image */
+.card-5 img {
+    width: 50%;
+}
+/* Weigth styling */
+.weight-color-5 {
+    background-color: var(--color-3);
+    color: var(--color-8);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
+/* Card 6 */
+.card-6 {
+    text-align: center;
+    background-color: var(--color-9);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Resizing card image */
+.card-6 img {
+    width: 50%;
+}
+/* Weigth styling */
+.weight-color-6 {
+    background-color: var(--color-3);
+    color: var(--color-9);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
+/* Card 7 */
+.card-7 {
+    text-align: center;
+    background-color: var(--color-10);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Resizing card image */
+.card-7 img {
+    width: 50%;
+}
+/* Weigth styling */
+.weight-color-7 {
+    background-color: var(--color-3);
+    color: var(--color-10);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
+/* Card 8 */
+.card-8 {
+    text-align: center;
+    background-color: var(--color-11);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Resizing card image */
+.card-8 img {
+    width: 50%;
+}
+/* Weigth styling */
+.weight-color-8 {
+    background-color: var(--color-3);
+    color: var(--color-11);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
+/* Card 9 */
+.card-9 {
+    text-align: center;
+    background-color: var(--color-12);
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
+}
+/* Resizing card image */
+.card-9 img {
+    width: 50%;
+}
+/* Weigth styling */
+.weight-color-9 {
+    background-color: var(--color-3);
+    color: var(--color-12);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+}
