@@ -134,15 +134,20 @@ body {
 }
 /* Rigth container */
 .right-container {
+    margin-top: -1.5em;
     display: flex;
     width: 20em;
     height: 800px;
     background-color: var(--color-5);
+    flex-direction: column;
 }
 /* Top-right Icons */
 .right-corner {
-    
-    
+    display: flex;
+    gap: 1.2em;
+    align-items:center;
+    justify-content: end;
+    margin: 1.4em;
 }
 .right-corner img {
     
@@ -151,7 +156,6 @@ body {
 .my-order {
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
-    margin-top: 5em;
+    margin-left: 1.5em;
 }
 
