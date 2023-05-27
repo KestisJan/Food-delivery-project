@@ -133,29 +133,70 @@ body {
 
 .card-1 {
     text-align: center;
-    background-color: var(--color-4);
-    height: 300px;
-    width: 300px;
+    background-color: #F7EBF7;
+    height: 17em;
+    width: 15em;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0.8em;
 }
 .top-card {
     display: flex;
     justify-content: space-between;
     
 }
-
+/* Card rating styling */
 .rating {
     margin: 16px;
-    width: 4.2em;
+    width: 4em;
+    height: 1.5em;
     display: flex;
     background-color: black;
     color: white;
     border-radius: 25px;
     justify-content: space-around;
     align-items: center;
+    font-size: 12px;
 }
 /* Card rating star color */
 .fa-star {
     color: var(--color-1);
+}
+/* Card heart styling */
+.heart {
+    background-color: var(--color-3);
+    margin: 10px 16px;
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--color-2);
+}
+/* Resizing card image */
+.card-1 img {
+    width: 50%;
+}
+
+/* Botom card info */
+.bottom-card {
+    display: flex;
+    justify-content: start;
+    gap: 1.5em;
+    padding: 1em 0 0 1em;
+    align-items: center;
+    font-size: 12px;
+}
+.dish-weigth {
+    background-color: var(--color-3);
+    color: var(--color-12);
+    padding: 0.4em 0.4em;
+    border-radius: 25px;
+    
+}
+
+/* Card price */
+.dish-price {
+    padding: 0.1em 0 0 1em;
+    float: left;
+    font-size: 12px;
 }
 
 /* Rigth container */
