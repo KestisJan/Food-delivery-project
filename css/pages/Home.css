@@ -132,12 +132,31 @@ body {
 /* CARDS */
 
 .card-1 {
-    display: flex;
+    text-align: center;
     background-color: var(--color-4);
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
+}
+.top-card {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
+.rating {
+    margin: 16px;
+    width: 4.2em;
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Card rating star color */
+.fa-star {
+    color: var(--color-1);
+}
 
 /* Rigth container */
 .right-container {
